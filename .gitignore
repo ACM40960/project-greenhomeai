@@ -1,0 +1,104 @@
+# ==============================
+# OS / Editor / Misc
+# ==============================
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+*.swo
+.idea/
+.vscode/
+*.code-workspace
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.pickle
+*.so
+.venv/
+env/
+venv/
+ENV/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+dist/
+build/
+*.log
+
+# ==============================
+# R
+# ==============================
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Rapp.history
+*.RDataTmp
+
+# ==============================
+# Jupyter Notebooks
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Data files (large / raw)
+# ==============================
+# ignore all CSVs by default (to prevent big file issues)
+*.csv
+
+# Allow small CSVs in processed folder (<100KB manually checked)
+!data/processed/*.csv
+
+# ignore all parquet/feather/hdf5 files
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# ignore all Excel
+*.xls
+*.xlsx
+*.xlsm
+
+# ignore raw and interim data folders
+data/raw/
+data/interim/
+
+# ==============================
+# Model files
+# ==============================
+models/trained/
+*.bin
+*.joblib
+*.model
+*.sav
+*.onnx
+*.h5
+*.pth
+*.pt
+*.tflite
+
+# ==============================
+# Logs & Outputs
+# ==============================
+logs/
+mlruns/
+wandb/
+outputs/
+reports/figures/
+
+# ==============================
+# Temporary / Local Config
+# ==============================
+.env
+.env.*
+*.local
+*.cache/
+
