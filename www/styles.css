@@ -1,0 +1,80 @@
+:root{
+  --brand:#169873;
+  --bg:#f6faf8;
+  --card:#ffffff;
+  --muted:#6b7a88;
+}
+
+html, body { height:100%; }
+body{ background:var(--bg); -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
+
+.brand{ display:flex; align-items:center; gap:10px; }
+.brand-logo{ height:34px; max-height:34px; width:auto; display:block; object-fit:contain; }
+.brand-name{ font-weight:800; letter-spacing:.3px; }
+
+.plot-card{ background:#fff; border-radius:16px; box-shadow:0 4px 16px rgba(0,0,0,.06); padding:10px; }
+
+
+/* Sidebar */
+.input-card{ background:var(--card); border-radius:16px; padding:14px; box-shadow:0 4px 16px rgba(0,0,0,.06); position:sticky; top:12px; }
+.input-card .btn-primary{ background:var(--brand); border-color:var(--brand); font-weight:700; }
+.input-card .btn-primary:hover{ filter:brightness(0.95); }
+
+/* Metric blocks */
+.card.metric{ background:var(--card); border-radius:20px; padding:18px 20px; box-shadow:0 6px 20px rgba(0,0,0,.07); height:100%; }
+.card.metric .label{ font-size:12px; letter-spacing:.08em; color:var(--brand); text-transform:uppercase; opacity:.85; }
+.card.metric .value{ font-size:28px; font-weight:800; margin-top:6px; }
+.muted{ color:#7b8a95; font-size:12px; margin-top:6px; }
+
+/* Plot cards + captions */
+.plot-card{ background:var(--card); border-radius:16px; box-shadow:0 4px 16px rgba(0,0,0,.06); padding:8px; }
+.js-plotly-plot{ margin:0 !important; }
+.figure-note{ color:#6f7f8b; font-size:13px; margin-top:8px; }
+
+/* Chips */
+.chip-row{ display:flex; align-items:center; gap:12px; flex-wrap:wrap; margin-top:10px; }
+.pill{ background:#eaf7f2; border-radius:999px; padding:6px 10px; font-size:14px; }
+.pill .pill-value{ font-weight:700; margin-left:6px; }
+
+/* Table */
+.dataTables_wrapper .dataTables_length select,
+.dataTables_wrapper .dataTables_filter input{ border-radius:12px; border:1px solid #dfe6ea; padding:6px 10px; }
+table.dataTable.display tbody tr:hover{ background:#f3fbf7; }
+
+.app-footer{ padding:10px 0; color:#789; }
+
+@media (max-width: 991.98px){
+  .input-card{ position: static; }
+  .card.metric .value{ font-size:24px; }
+}
+
+
+/* sidebar labels bold */
+.control-label {
+  font-weight: bold !important;
+}
+
+
+/* Bold metric card values */
+.card.metric .value {
+  font-weight: bold !important;
+  font-size: 1.3em;   /* make them slightly bigger */
+  color: #222;        /* dark color for emphasis */
+}
+
+
+/* --- Spacing so captions don't collide with the footer --- */
+body { padding-bottom: 80px; }         /* room for footer */
+.plot-card { margin-bottom: 12px; }    /* space under each chart/table card */
+.figure-note { margin: 10px 0 22px; }  /* extra gap before footer */
+
+/* --- Bold, crisper headings across the app --- */
+h1, h2, h3, h4, h5, h6,
+.card.metric .label,
+.plot-card h5,
+.dataTables_wrapper .dataTables_length label,
+.dataTables_wrapper .dataTables_filter label,
+.sidebar .h4, .sidebar h4,
+label[for] {
+  font-weight: 800 !important;
+}
