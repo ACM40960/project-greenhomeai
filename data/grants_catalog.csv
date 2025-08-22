@@ -1,0 +1,8 @@
+"grant_key,upgrade,grant_name,grant_url,notes"
+"attic_insulation,insulation_roof,Attic Insulation (SEAI),https://www.seai.ie/grants/home-energy-grants/individual-grants/insulation-grants,Individual grant (pre-2011)"
+"cavity_wall_insulation,insulation_wall,Wall Insulation — Cavity (SEAI),https://www.seai.ie/grants/home-energy-grants/individual-grants/insulation-grants,Individual grant (pre-2011)"
+"internal_wall_insulation,insulation_wall,Wall Insulation — Internal Dry Lining (SEAI),https://www.seai.ie/grants/home-energy-grants/individual-grants/insulation-grants,Individual grant (pre-2011)"
+"external_wall_insulation,insulation_wall,Wall Insulation — External (SEAI),https://www.seai.ie/grants/home-energy-grants/individual-grants/insulation-grants,Individual grant (pre-2011)"
+"heating_controls,heating_efficiency,Heating Controls (SEAI),https://www.seai.ie/grants/home-energy-grants/individual-grants/heating-upgrade-grants,Not if heat pump grant is claimed/applying"
+"heat_pump_system,heating_efficiency,Heat Pump System (SEAI),https://www.seai.ie/grants/home-energy-grants/individual-grants/heat-pump-systems,Pre-2021; technical assessment rule applies"
+"oss_windows_doors,windows,One Stop Shop — Windows/Doors (SEAI),https://www.seai.ie/grants/home-energy-grants/one-stop-shop,Windows/doors via OSS only (whole-home path)"

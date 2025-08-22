@@ -1,0 +1,5 @@
+upgrade,cost_low_eur,cost_median_eur,cost_high_eur,notes
+insulation_wall,2241,5000,10000,Wall insulation: internal (~€2.2k) to external (~€10k). Median blends options.
+insulation_roof,700,3750,5000,Roof/attic insulation: grant-level low ~€700; typical median ~€3.75k.
+windows,5000,8000,12000,Whole-house window replacement estimate; varies by size & glazing.
+heating_efficiency,200,270,500,Represents 'heating controls/efficiency tweak' rather than full system replacement.

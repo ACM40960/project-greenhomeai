@@ -1,0 +1,17 @@
+fuel,kgco2_per_kwh
+electricity,0.2263
+gross_electricity,0.2043
+petrol_100_,0.2519
+diesel_100_,0.263
+lpg,0.2293
+road_petrol_avg_,0.2368
+road_diesel_avg_,0.241
+bituminous_coal,0.3406
+natural_gas_ncv_,0.2038
+peat_briquettes,0.3559
+heating_oil,0.298
+sod_peat,0.3744
+wood_pellets,0
+wood_logs,0
+wood_chips,0
+anthracite,0.3539

@@ -1,0 +1,17 @@
+"grant_key,logic,field,op,value,note"
+"attic_insulation,ALL,year_built_occupied,<=,2011,Home must be built & occupied before 2011"
+
+"cavity_wall_insulation,ALL,year_built_occupied,<=,2011,Home must be built & occupied before 2011"
+"internal_wall_insulation,ALL,year_built_occupied,<=,2011,Home must be built & occupied before 2011"
+"external_wall_insulation,ALL,year_built_occupied,<=,2011,Home must be built & occupied before 2011"
+
+"heating_controls,ALL,year_built_occupied,<=,2011,Home must be built & occupied before 2011"
+"heating_controls,ALL,has_adequate_controls,==,false,Grant is for adding/bringing controls up to standard"
+"heating_controls,ALL,has_or_applying_heat_pump,==,false,Not available if a heat pump grant is being claimed/applied"
+
+"heat_pump_system,ALL,year_built_occupied,<=,2021,Home must be built & occupied before 2021"
+"heat_pump_system,ANY,year_built,>=,2007,Newer homes (2007+) don’t need the assessment before applying"
+"heat_pump_system,ANY,has_heat_pump_tech_assessment,==,true,Otherwise a technical assessment is required"
+
+"oss_windows_doors,ALL,year_built_occupied,<=,2011,OSS homes must be pre-2011"
+"oss_windows_doors,ANY,ber_pre,IN,""[C1,C2,D1,D2,E1,E2,F,G,B3]"",OSS is for homes B3 or lower pre-works"

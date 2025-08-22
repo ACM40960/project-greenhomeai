@@ -1,0 +1,21 @@
+DwellingGroup,BER_Group,homes,share_elec_heating,share_gas_heating,median_elec_kwh_used,median_gas_kwh_used,median_total_co2_kg,p90_total_co2_kg
+Apartment (any),A-B,35707,18,57,2977,6407,1305.7466,1305.7466
+Apartment (any),C,46927,43.2,49.6,4801,6775,1086.4663,1380.745
+Apartment (any),D,29228,76.2,18.7,4720,6582,1068.136,1341.4116
+Apartment (any),E,11762,81,13,4476,6901,1012.9188,1406.4238
+Apartment (any),F-G,7871,74.7,12.9,3740,6423,846.362,1309.0074
+Detached house,A-B,52054,13,27.3,6589.5,11155.5,0,2273.4909
+Detached house,C,104986,1.7,21,6234.5,10363,0,2111.9794
+Detached house,D,62263,4.3,12.4,5189,10206,0,2079.9828
+Detached house,E,27483,6.8,9.2,4804.5,10587,0,1087.25835
+Detached house,F-G,34040,13.9,5,3847.5,10074.5,0,870.68925
+Mid-Terrace,A-B,19944,8.1,76,3990,6882,1402.5516,1402.5516
+Mid-Terrace,C,40589,3.1,69.4,5284,6741,1373.8158,1373.8158
+Mid-Terrace,D,20418,10.2,55.8,4870,7092,1445.3496,1445.3496
+Mid-Terrace,E,11024,8.8,52.4,4422,7253,1478.1614,1478.1614
+Mid-Terrace,F-G,8537,21.6,39.4,3568,6818,807.4384,1389.5084
+Semi-detached or End of Terrace,A-B,43742,10.9,67.2,4512,8437,1719.4606,1719.4606
+Semi-detached or End of Terrace,C,117539,0.7,57.7,4941,8082,1647.1116,1647.1116
+Semi-detached or End of Terrace,D,57017,4.6,50.9,5168,8410,1713.958,1713.958
+Semi-detached or End of Terrace,E,23823,6.6,43.3,4721.5,8845,0,1802.611
+Semi-detached or End of Terrace,F-G,19066,11.3,36.6,3917,8672.5,0,1767.4555
