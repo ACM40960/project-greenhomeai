@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img src="www/logo.png" alt="GreenHomeAI Logo" width="200"/>
+  <img src="www/logo.png" alt="GreenHomeAI Logo" width="100"/>
 
 # GreenHomeAI: Predicting Household CO₂ Emissions & Retrofit Upgrades
 
@@ -84,7 +84,10 @@ greenhomeai/
 │
 ├── data/                     # Input datasets (<100 MB each)
 │   └── BERmaster2x.csv
-│
+│   ├── Emission_factors.xls
+│   ├── Tariffs.xls
+│   ├── Upgrade_costs.xls
+│   └── ... (other intermediate files)
 ├── docs/                     # Poster & literature review
 │   ├── poster/
 │   │   └── Poster_GreenHomeAI.pdf
@@ -92,9 +95,11 @@ greenhomeai/
 │       └── Literature_Review.pdf
 │
 ├── models/                   # Saved LightGBM models
-│   └── delta_models/
-│       └── lgb_delta_windows.txt
-│
+│   ├── delta_models/         
+│   │   └── lgb_delta_windows.txt
+│   ├── lightgbm_upgrade_friendly.txt
+│   ├── lightgbm_upgrade_friendly_meta.rds
+│   └── p3_onehot_feature_names.rds
 ├── outputs/                  # CSV results and tables
 │   └── tables/
 │       └── results.csv
@@ -193,23 +198,17 @@ Wall + Roof insulation upgrades → **~20% reduction in CO₂ emissions**.
 
 ## 🔮 Future Work
 
-- Include **weather & occupancy effects**.  
-- Expand beyond Ireland → international retrofits.  
-- Add **BER rating improvement estimator**.  
-- Build a **public dashboard**.  
-
+- Integrate **renewable energy sources** (e.g., solar panels, heat pumps) to push houses toward the *greener side*.  
+- Add **BER rating improvement estimator** to show post-upgrade rating.  
+- Expand **upgrade catalog** (e.g., smart meters, energy-efficient appliances).
+- Build a **public dashboard** for policymakers and citizens.  
+- Explore **GPT-based advisory system** to provide natural language recommendations to users.
 ---
 
 ## 👥 Contributors
 
-- **Balpreet Kaur Saluja** — Data preprocessing, modeling, documentation  
-- **Akshay Musterya** — Model training, evaluation, UI integration  
-
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).  
+- **Balpreet Kaur** — Data preprocessing, modeling, documentation  
+- **Akshay (Teammate)** — Model training, evaluation, UI integration  
 
 ---
 
