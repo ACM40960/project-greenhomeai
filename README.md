@@ -29,8 +29,9 @@ The model highlights targeted improvements and estimates **15–30% emission red
 - [Results](#-results)
 - [Future Work](#-future-work)
 - [Visuals](#-visuals)
-- [Contributors](#-contributors)
 - [Contact](#-contact)
+- [References](#-references)
+- [Acknowledgments](#-acknowledgments)
 
 ---
 
@@ -243,4 +244,23 @@ Here are some visuals to demonstrate the system:
 - **Project**: GreenHomeAI  
 - **Institution**: University College Dublin  
 - **Course**: ACM40960 - Mathematical Modelling  
-- **Contributors**: Balpreet Kaur, Akshay Musterya
+- **Contributors**: Balpreet Kaur, Akshay Musterya  
+
+---
+
+## 📚 References  
+
+- **SEAI (Sustainable Energy Authority of Ireland)**. *BER and retrofit grant schemes*. Retrieved from [https://www.seai.ie](https://www.seai.ie)  
+- **LightGBM Documentation**. *Microsoft/LightGBM*. Retrieved from [https://lightgbm.readthedocs.io](https://lightgbm.readthedocs.io)  
+- **R Core Team (2024)**. *R: A Language and Environment for Statistical Computing*. R Foundation for Statistical Computing, Vienna, Austria.  
+- Project Deliverables: Poster and Literature Review PDFs in `/docs/`.  
+
+---
+
+## 🙏 Acknowledgments  
+
+- **University College Dublin (UCD)** — for providing academic guidance and access to datasets.  
+- **Prof. [Your Professor’s Name]** — for supervision and feedback throughout the project.  
+- **Course ACM40960 — Mathematical Modelling** — under which this project was developed.  
+- **Team Members** — Balpreet Kaur (data preprocessing, modeling, documentation), Akshay Musterya (model training, evaluation, UI integration).  
+- **Open-source contributors** — R community, Microsoft LightGBM team, and developers of `shiny`, `plotly`, and other libraries that made this project possible.  
