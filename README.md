@@ -260,7 +260,6 @@ Here are some visuals to demonstrate the system:
 ## 🙏 Acknowledgments  
 
 - **University College Dublin (UCD)** — for providing academic guidance and access to datasets.  
-- **Prof. [Your Professor’s Name]** — for supervision and feedback throughout the project.  
+- **Dr. Sarp Akcay ** — for supervision and feedback throughout the project.  
 - **Course ACM40960 — Mathematical Modelling** — under which this project was developed.  
-- **Team Members** — Balpreet Kaur (data preprocessing, modeling, documentation), Akshay Musterya (model training, evaluation, UI integration).  
 - **Open-source contributors** — R community, Microsoft LightGBM team, and developers of `shiny`, `plotly`, and other libraries that made this project possible.  
