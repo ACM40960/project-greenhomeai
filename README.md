@@ -12,26 +12,25 @@
 
 </div>
 
-
 A research-driven project that uses Irish **BER (Building Energy Rating)** data to **predict household CO₂ emissions** and recommend **retrofit upgrades** (wall insulation, roof insulation, windows, heating).  
 The model highlights targeted improvements and estimates **15–30% emission reductions**, aligned with **SEAI grants**.
 
 ---
 
 ## 📑 Table of Contents
-- [Abstract](#abstract)
-- [Project Description](#project-description)
-- [Key Components](#key-components)
-- [Project Goals](#project-goals)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Usage](#usage)
-- [System Architecture](#system-architecture)
-- [Results](#results)
-- [Future Work](#future-work)
-- [Contributors](#contributors)
-- [License](#license)
-- [Contact](#contact)
+- [Abstract](#-abstract)
+- [Project Description](#-project-description)
+- [Key Components](#-key-components)
+- [Project Goals](#-project-goals)
+- [Project Structure](#-project-structure)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [System Architecture](#-system-architecture)
+- [Results](#-results)
+- [Future Work](#-future-work)
+- [Visuals](#-visuals)
+- [Contributors](#-contributors)
+- [Contact](#-contact)
 
 ---
 
@@ -83,32 +82,50 @@ greenhomeai/
 ├── README.md                 # Project documentation
 │
 ├── data/                     # Input datasets (<100 MB each)
-│   └── BERmaster2x.csv
-│   ├── Emission_factors.xls
-│   ├── Tariffs.xls
-│   ├── Upgrade_costs.xls
-│   └── ... (other intermediate files)
-├── docs/                     # Poster & literature review
+│   ├── BERmaster2x.csv
+│   ├── BERmaster2xreport.csv
+│   ├── co2_baseline_aggregated.csv
+│   ├── Emission_factors.csv
+│   ├── grants_catalog.csv
+│   ├── grants_rules.csv
+│   ├── Tariffs.csv
+│   └── Upgrade_costs.csv
+│
+├── docs/                     # Documentation and reports
 │   ├── poster/
-│   │   └── Poster_GreenHomeAI.pdf
-│   └── literature_review/
-│       └── Literature_Review.pdf
+│   │   └── GREENHOMEAI.pdf
+│   ├── literature-review/
+│   │   └── GreenHome_AI.pdf
+│   └── visuals/              # Visual outputs (screenshots, demo)
+│       ├── ui_demo.png
+│       ├── model_results.png
+│       └── savings_plot.png
 │
 ├── models/                   # Saved LightGBM models
 │   ├── delta_models/         
+│   │   ├── lgb_delta_heating_efficiency.txt
+│   │   ├── lgb_delta_insulation_roof.txt
+│   │   ├── lgb_delta_insulation_wall.txt
 │   │   └── lgb_delta_windows.txt
 │   ├── lightgbm_upgrade_friendly.txt
 │   ├── lightgbm_upgrade_friendly_meta.rds
 │   └── p3_onehot_feature_names.rds
+│
 ├── outputs/                  # CSV results and tables
 │   └── tables/
+│       ├── delta_models_summary.csv
+│       ├── part4_recommendations_long.csv
+│       ├── part4_recommendations_top3.csv
 │       └── results.csv
 │
 ├── R/                        # Utility scripts
-│   ├── utils_live.R
+│   ├── CO2MODEL.R
+│   ├── DELTACO2MODEL.R
+│   ├── featuresR.R
 │   ├── mod_inputs_live.R
 │   ├── mod_results_live.R
-│   └── CO2MODEL.R
+│   ├── utils_live.R
+│   └── ... (other helper scripts)
 │
 ├── www/                      # Assets for Shiny
 │   ├── styles.css
@@ -203,6 +220,22 @@ Wall + Roof insulation upgrades → **~20% reduction in CO₂ emissions**.
 - Expand **upgrade catalog** (e.g., smart meters, energy-efficient appliances).
 - Build a **public dashboard** for policymakers and citizens.  
 - Explore **GPT-based advisory system** to provide natural language recommendations to users.
+
+---
+
+## 🖼 Visuals
+
+Here are some visuals to demonstrate the system:  
+
+- **UI Demo**  
+  ![UI Demo](docs/visuals/ui_demo.png)
+
+- **Model Results**  
+  ![Model Results](docs/visuals/model_results.png)
+
+- **Savings Plot**  
+  ![Savings Plot](docs/visuals/savings_plot.png)
+
 ---
 
 ## 👥 Contributors
@@ -217,4 +250,4 @@ Wall + Roof insulation upgrades → **~20% reduction in CO₂ emissions**.
 - **Project**: GreenHomeAI  
 - **Institution**: University College Dublin  
 - **Course**: ACM40960 - Mathematical Modelling  
-- **Contributors**: Balpreet Kaur, Akshay  
+- **Contributors**: Balpreet Kaur, Akshay Musterya
