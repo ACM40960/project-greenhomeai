@@ -209,7 +209,7 @@ graph LR
 | R²     | 0.976 |
 
 **Example:**  
-Wall + Roof insulation upgrades → **~20% reduction in CO₂ emissions**.
+Wall + Roof + Window insulation upgrades → **~20% reduction in CO₂ emissions**.
 
 ---
 
@@ -235,13 +235,6 @@ Here are some visuals to demonstrate the system:
 
 - **Savings Plot**  
   ![Savings Plot](docs/visuals/ss3.jpeg)
-
----
-
-## 👥 Contributors
-
-- **Balpreet Kaur** — Data preprocessing, modeling, documentation  
-- **Akshay Musterya** — Model training, evaluation, UI integration  
 
 ---
 
