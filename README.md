@@ -1,17 +1,17 @@
 <div align="center">
 
-![GreenHomeAI Logo](www/logo.png) <!-- TODO: replace with your actual logo path -->
+  <img src="www/logo.png" alt="GreenHomeAI Logo" width="200"/>
 
-# 🌍 GreenHomeAI: Predicting Household CO₂ Emissions & Retrofit Upgrades
+# GreenHomeAI: Predicting Household CO₂ Emissions & Retrofit Upgrades
 
 ![R](https://img.shields.io/badge/R-4.3%2B-blue?style=for-the-badge&logo=r&logoColor=white) 
 ![LightGBM](https://img.shields.io/badge/LightGBM-ML-success?style=for-the-badge) 
 ![Shiny](https://img.shields.io/badge/Shiny-UI-blueviolet?style=for-the-badge) 
 ![Plotly](https://img.shields.io/badge/Plotly-Graphs-orange?style=for-the-badge) 
-![License](https://img.shields.io/badge/LICENSE-MIT-green?style=for-the-badge) 
 ![Platform](https://img.shields.io/badge/Platform-macOS%20|%20Linux%20|%20Windows-lightgrey?style=for-the-badge)
 
 </div>
+
 
 A research-driven project that uses Irish **BER (Building Energy Rating)** data to **predict household CO₂ emissions** and recommend **retrofit upgrades** (wall insulation, roof insulation, windows, heating).  
 The model highlights targeted improvements and estimates **15–30% emission reductions**, aligned with **SEAI grants**.
