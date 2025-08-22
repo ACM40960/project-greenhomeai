@@ -228,20 +228,20 @@ Wall + Roof insulation upgrades → **~20% reduction in CO₂ emissions**.
 Here are some visuals to demonstrate the system:  
 
 - **UI Demo**  
-  ![UI Demo](docs/visuals/ui_demo.png)
+  ![UI Demo](docs/visuals/ss1.jpeg)
 
 - **Model Results**  
-  ![Model Results](docs/visuals/model_results.png)
+  ![Model Results](docs/visuals/ss2.jpeg)
 
 - **Savings Plot**  
-  ![Savings Plot](docs/visuals/savings_plot.png)
+  ![Savings Plot](docs/visuals/ss3.jpeg)
 
 ---
 
 ## 👥 Contributors
 
 - **Balpreet Kaur** — Data preprocessing, modeling, documentation  
-- **Akshay (Teammate)** — Model training, evaluation, UI integration  
+- **Akshay Musterya** — Model training, evaluation, UI integration  
 
 ---
 
